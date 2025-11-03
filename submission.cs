@@ -33,9 +33,10 @@ namespace ConsoleApp1
     public class Program
     {
         // ====== REPLACE THESE WITH YOUR PUBLIC GITHUB URLS ======
-        public static string xmlURL      = "https://raw.githubusercontent.com/mohammadhsa/CSE-445_Hotels-XML/main/Hotels.xml";
-        public static string xmlErrorURL = "https://raw.githubusercontent.com/mohammadhsa/CSE-445_Hotels-XML/main/HotelsErrors.xml";
-        public static string xsdURL      = "https://raw.githubusercontent.com/mohammadhsa/CSE-445_Hotels-XML/main/Hotels.xsd";
+        public static string xmlURL      = "https://mohammadhsa.github.io/CSE-445_Hotels-XML/Hotels.xml";
+public static string xmlErrorURL = "https://mohammadhsa.github.io/CSE-445_Hotels-XML/HotelsErrors.xml";
+public static string xsdURL      = "https://mohammadhsa.github.io/CSE-445_Hotels-XML/Hotels.xsd";
+
         // If you prefer raw links, you can use:
         // "https://raw.githubusercontent.com/<user>/<repo>/<branch>/Hotels.xml", etc.
         // ========================================================
