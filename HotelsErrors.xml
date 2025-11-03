@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <!-- (1) Root element is Hotel instead of Hotels -->
+  <Hotel Rating="4.6">
+    <!-- (5) Two Name elements provided -->
+    <Name>Westin Tempe</Name>
+    <Name>Westin Tempe Duplicate</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <!-- (2) Required attribute missing on Address (NearestAirport removed) -->
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt Regency Phoenix</Name>
+    <!-- (3) Phone element missing entirely for this hotel -->
+    <!-- (4) Address element has no closing tag (malformed) -->
+    <Address NearestAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    <!-- Missing </Address> on purpose -->
+  </Hotel>
+</Hotel>
